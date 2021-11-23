@@ -1,0 +1,72 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+  background: #9FFFF5;
+}
+h1{
+  text-align: center;
+  margin: 50px 0 70px 0;
+
+}
+.card-profile{
+  width: 300px;
+  margin: 0 auto;
+  box-shadow: 0 0 5px 2px rgba(0,0,0,.3);
+  border-radius: 10px 10px 0 0;
+
+}
+.card-profile .arriba{
+  position: relative;
+  background: #0A2253;
+  border-radius: 10px 10px 0 0;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+
+}
+.arriba img{
+  position: absolute;
+  width: 100px;
+  border-radius: 50%;
+  border: 5px solid #0A2253;
+  top: -50px;
+  left: 100px;
+
+}
+.arriba h2{
+  font-size: 16px;
+  margin:50px 0 10px 0;
+}
+.arriba p{
+  background: rgba(255,255,255,.3);
+  border-radius: 5px;
+}
+.abajo{
+  padding: 10px;
+  background: #fff;
+}
+.abajo h3{
+  margin-top: 10px;
+  color: #0A2253;
+}
+.container{
+  margin: 15px;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.container .card{
+  margin: 5px;
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  width: 500px;
+
+}
+.card h3{
+  color: #0A2253;
+}
